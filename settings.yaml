@@ -1,23 +1,23 @@
-card_bg_sizepx:
+card_flair_circle_sizepx:
   type: string
   default: 30px
   description:
-    en: ""
+    en: "User card flair background diameter in px."
 
 card_flair_sizepx:
   type: string
   default: 30px
   description:
-    en: ""
+    en: "User card avatar flair size in px."
 
-post_flair_bg_sizepx:
+post_flair_circle_sizepx:
   type: string
   default: 30px
   description:
-    en: ""
+    en: "Post avatar flair background diameter in px."
 
 post_flair_sizepx:
   type: string
   default: 30px
   description:
-    en: ""
+    en: "Post avatar flair size in px."
