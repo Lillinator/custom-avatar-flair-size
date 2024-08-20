@@ -16,7 +16,7 @@
 .collapsed-info .user-profile-avatar .avatar-flair,  
 .user-image .avatar-flair, 
 .latest-topic-list-item .avatar-flair {
-    background-size: $post_flair_size_image_px $post_flair_image_size_px !important;
+    background-size: $post_flair_image_size_px $post_flair_image_size_px !important;
     width: $post_flair_circle_size_px !important;
     height: $post_flair_circle_size_px !important;
 }
