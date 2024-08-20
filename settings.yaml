@@ -1,10 +1,3 @@
-flair_groups:
-  type: list
-  list_type: group
-  default: ""
-  description: 
-    en: ""
-    
 card_bg_sizepx:
   type: string
   default: 30px
@@ -24,11 +17,6 @@ post_flair_bg_sizepx:
     en: ""
 
 post_flair_sizepx:
-  type: string
-  default: 30px
-  description:
-    en: ""
-
   type: string
   default: 30px
   description:
