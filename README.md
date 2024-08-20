@@ -1,2 +1,2 @@
 # customize-avatar-flair
-Customize your Discourse avatar flair
+Adjust your Discourse avatar flair image size. Only works with a custom image flair.
