@@ -1,6 +1,6 @@
 .user-card-avatar .avatar-flair, 
 .user-profile-avatar .avatar-flair {
-    background-size: $card_bg_sizepx $card_bg_sizepx !important;
+    background-size: $card_flair_circle_sizepx $card_flair_circle_sizepx !important;
     width: $card_flair_sizepx !important;
     height: $card_flair_sizepx !important;
 }
@@ -16,7 +16,7 @@
 .collapsed-info .user-profile-avatar .avatar-flair,  
 .user-image .avatar-flair, 
 .latest-topic-list-item .avatar-flair {
-    background-size: $post_flair_bg_sizepx $post_flair_bg_sizepx !important;
+    background-size: $post_flair_circle_sizepx $post_flair_circle_sizepx !important;
     width: $post_flair_sizepx !important;
     height: $post_flair_sizepx !important;
 }
@@ -25,7 +25,7 @@
 .collapsed-info .user-profile-avatar .avatar-flair.rounded,  
 .user-image .avatar-flair.rounded, 
 .latest-topic-list-item .avatar-flair.rounded {
-    background-size: $post_flair_bg_sizepx $post_flair_bg_sizepx !important;
+    background-size: $post_flair_circle_sizepx $post_flair_circle_sizepx !important;
     width: $post_flair_sizepx !important;
     height: $post_flair_sizepx !important;
     border-radius: 50% !important;
