@@ -1,0 +1,35 @@
+card_bg_sizepx:
+  type: string
+  default: 30px
+  description:
+    en: ""
+
+card_flair_sizepx:
+  type: string
+  default: 30px
+  description:
+    en: ""
+
+post_flair_bg_sizepx:
+  type: string
+  default: 30px
+  description:
+    en: ""
+
+post_flair_sizepx:
+  type: string
+  default: 30px
+  description:
+    en: ""
+
+  type: string
+  default: 30px
+  description:
+    en: ""
+
+avatar_flair_groups:
+  type: list
+  list_type: group
+  default: ""
+  description:
+    en: "Use custom flair for these groups only."
