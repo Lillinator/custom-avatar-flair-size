@@ -16,7 +16,7 @@ post_flair_circle_size_px:
   description:
     en: "Post avatar flair background circle in px."
 
-post_flair_size_px:
+post_flair_image_size_px:
   type: string
   default: 30px
   description:
