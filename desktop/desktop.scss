@@ -1,0 +1,32 @@
+@import "str-to-list";
+
+$list: str-to-list("#{$flair_groups}", "|");
+
+@each $group in $list {
+    body.group-#{$group} {
+       .user-card-avatar .avatar-flair, .user-profile-avatar .avatar-flair {
+         background-size: $card_bg_sizepx $card_bg_sizepx;
+         width: $card_flair_sizepx;
+         height: $card_flair_sizepx;
+      }
+      .topic-avatar .avatar-flair, 
+      .avatar-flair-preview .avatar-flair, 
+      .collapsed-info .user-profile-avatar .avatar-flair,  
+      .user-image .avatar-flair, 
+      .latest-topic-list-item .avatar-flair {
+        background-size: $post_flair_bg_sizepx $post_flair_bg_sizepx;
+        width: $post_flair_sizepx;
+        height: $post_flair_sizepx;
+      }
+      .topic-avatar .avatar-flair.rounded,
+      .avatar-flair-preview .avatar-flair.rounded, 
+      .collapsed-info .user-profile-avatar .avatar-flair.rounded,  
+      .user-image .avatar-flair.rounded, 
+      .latest-topic-list-item .avatar-flair.rounded {
+        background-size: $post_flair_bg_sizepx $post_flair_bg_sizepx;
+        width: $post_flair_sizepx;
+        height: $post_flair_sizepx;
+        border-radius: 50%;
+      }
+  }
+}
