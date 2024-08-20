@@ -26,10 +26,3 @@ post_flair_sizepx:
   default: 30px
   description:
     en: ""
-
-flair_groups:
-  type: list
-  list_type: group
-  default: ""
-  description:
-    en: "Use custom flair for these groups only."
