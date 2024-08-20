@@ -1,41 +1,33 @@
-@import "str-to-list";
-
-$list: str-to-list("#{$flair_groups}", "|");
-
-@each $group in $list {
-    body.group-#{$group} {
-
-         .user-card-avatar .avatar-flair, 
-         .user-profile-avatar .avatar-flair {
-                  background-size: $card_bg_sizepx $card_bg_sizepx !important;
-                  width: $card_flair_sizepx !important;
-                  height: $card_flair_sizepx !important;
-         }
-         .user-card-avatar .avatar-flair.rounded, 
-         .user-profile-avatar .avatar-flair.rounded {
-                  background-size: $card_bg_sizepx $card_bg_sizepx !important;
-                  width: $card_flair_sizepx !important;
-                  height: $card_flair_sizepx !important;
-                  border-radius: 50% !important;
-         }
-         .topic-avatar .avatar-flair, 
-         .avatar-flair-preview .avatar-flair, 
-         .collapsed-info .user-profile-avatar .avatar-flair,  
-         .user-image .avatar-flair, 
-         .latest-topic-list-item .avatar-flair {
-                  background-size: $post_flair_bg_sizepx $post_flair_bg_sizepx !important;
-                  width: $post_flair_sizepx !important;
-                  height: $post_flair_sizepx !important;
-         }
-         .topic-avatar .avatar-flair.rounded,
-         .avatar-flair-preview .avatar-flair.rounded, 
-         .collapsed-info .user-profile-avatar .avatar-flair.rounded,  
-         .user-image .avatar-flair.rounded, 
-         .latest-topic-list-item .avatar-flair.rounded {
-                 background-size: $post_flair_bg_sizepx $post_flair_bg_sizepx !important;
-                 width: $post_flair_sizepx !important;
-                 height: $post_flair_sizepx !important;
-                 border-radius: 50% !important;
-         }
-    }
+.user-card-avatar .avatar-flair, 
+.user-profile-avatar .avatar-flair {
+    background-size: $card_bg_sizepx $card_bg_sizepx !important;
+    width: $card_flair_sizepx !important;
+    height: $card_flair_sizepx !important;
 }
+.user-card-avatar .avatar-flair.rounded, 
+.user-profile-avatar .avatar-flair.rounded {
+    background-size: $card_bg_sizepx $card_bg_sizepx !important;
+    width: $card_flair_sizepx !important;
+    height: $card_flair_sizepx !important;
+    border-radius: 50% !important;
+}
+.topic-avatar .avatar-flair, 
+.avatar-flair-preview .avatar-flair, 
+.collapsed-info .user-profile-avatar .avatar-flair,  
+.user-image .avatar-flair, 
+.latest-topic-list-item .avatar-flair {
+    background-size: $post_flair_bg_sizepx $post_flair_bg_sizepx !important;
+    width: $post_flair_sizepx !important;
+    height: $post_flair_sizepx !important;
+}
+.topic-avatar .avatar-flair.rounded,
+.avatar-flair-preview .avatar-flair.rounded, 
+.collapsed-info .user-profile-avatar .avatar-flair.rounded,  
+.user-image .avatar-flair.rounded, 
+.latest-topic-list-item .avatar-flair.rounded {
+    background-size: $post_flair_bg_sizepx $post_flair_bg_sizepx !important;
+    width: $post_flair_sizepx !important;
+    height: $post_flair_sizepx !important;
+    border-radius: 50% !important;
+}
+
