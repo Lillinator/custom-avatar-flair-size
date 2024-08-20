@@ -6,7 +6,7 @@
 }
 .user-card-avatar .avatar-flair.rounded, 
 .user-profile-avatar .avatar-flair.rounded {
-    background-size: $card_bg_sizepx $card_bg_sizepx !important;
+    background-size: $card_flair_circle_sizepx $card_flair_circle_sizepx !important;
     width: $card_flair_sizepx !important;
     height: $card_flair_sizepx !important;
     border-radius: 50% !important;
