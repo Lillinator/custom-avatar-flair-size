@@ -1,10 +1,4 @@
-@import "str-to-list";
-
-$list: str-to-list("#{$flair_groups}", "|");
-
-@each $group in $list {
-    body.group-#{$group} {
-       .user-card-avatar .avatar-flair, .user-profile-avatar .avatar-flair {
+.user-card-avatar .avatar-flair, .user-profile-avatar .avatar-flair {
          background-size: $card_bg_sizepx $card_bg_sizepx;
          width: $card_flair_sizepx;
          height: $card_flair_sizepx;
@@ -27,6 +21,4 @@ $list: str-to-list("#{$flair_groups}", "|");
         width: $post_flair_sizepx;
         height: $post_flair_sizepx;
         border-radius: 50%;
-      }
-  }
 }
