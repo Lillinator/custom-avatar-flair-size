@@ -27,7 +27,7 @@ post_flair_sizepx:
   description:
     en: ""
 
-avatar_flair_groups:
+flair_groups:
   type: list
   list_type: group
   default: ""
