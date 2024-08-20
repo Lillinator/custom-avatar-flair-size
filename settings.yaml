@@ -1,12 +1,12 @@
 card_flair_circle_size_px:
   type: string
-  default: 30px
+  default: 40px
   description:
     en: "User card and profile flair background circle size in px."
 
 card_flair_image_size_px:
   type: string
-  default: 30px
+  default: 40px
   description:
     en: "User card and profile avatar flair image size in px. Only works with custom image flairs, not the svg icons (unless you upload an svg icon as a custom flair image)."
 
